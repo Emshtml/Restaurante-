@@ -28,7 +28,7 @@ export default function RestauranteLandingPage() {
       nome: 'Filé de Frango Grelhado',
       descricao: 'Peito de frango temperado servido com acompanhamentos especiais.',
       preco: 'R$ 29,90',
-      imagem: 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?q=80&w=1200&auto=format&fit=crop'
+      imagem:Gemini_Generated_Image_c8p9lfc8p9lfc8p9.png
     },
     {
       nome: 'Calabresa Acebolada',
