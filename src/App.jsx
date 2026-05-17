@@ -3,17 +3,38 @@ export default function RestauranteLandingPage() {
     {
       nome: 'Picanha na Brasa',
       descricao: 'Corte premium servido com acompanhamentos especiais.',
+      preco: 'R$ 390,00',
       imagem: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1200&auto=format&fit=crop'
     },
     {
       nome: 'Massa Italiana Artesanal',
       descricao: 'Receita exclusiva com molho fresco e ingredientes selecionados.',
+      preco: 'R$ 45,00',
       imagem: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=1200&auto=format&fit=crop'
     },
     {
       nome: 'Burger Gourmet',
       descricao: 'Hambúrguer artesanal com blend especial e cheddar cremoso.',
+      preco: 'R$ 39,00',
       imagem: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop'
+    },
+    {
+      nome: 'Filé à Parmegiana',
+      descricao: 'Filé suculento coberto com molho artesanal e queijo gratinado.',
+      preco: 'R$ 42,00',
+      imagem: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop'
+    },
+    {
+      nome: 'Filé de Frango Grelhado',
+      descricao: 'Peito de frango temperado servido com acompanhamentos especiais.',
+      preco: 'R$ 29,90',
+      imagem: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1200&auto=format&fit=crop'
+    },
+    {
+      nome: 'Calabresa Acebolada',
+      descricao: 'Calabresa especial acebolada na chapa com sabor marcante.',
+      preco: 'R$ 25,00',
+      imagem: 'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1200&auto=format&fit=crop'
     }
   ];
 
@@ -113,7 +134,13 @@ export default function RestauranteLandingPage() {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-3">{prato.nome}</h3>
-                  <p className="text-zinc-400 mb-6">{prato.descricao}</p>
+                  <p className="text-zinc-400 mb-4">{prato.descricao}</p>
+
+                  <div className="flex items-center justify-between mb-6">
+                    <span className="text-3xl font-extrabold text-green-400">
+                      {prato.preco}
+                    </span>
+                  </div>
 
                   <a
                     href={`https://wa.me/5511999999999?text=Olá,%20tenho%20interesse%20no%20prato%20${encodeURIComponent(prato.nome)}`}
