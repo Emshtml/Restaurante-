@@ -22,19 +22,19 @@ export default function RestauranteLandingPage() {
       nome: 'Filé à Parmegiana',
       descricao: 'Filé suculento coberto com molho artesanal e queijo gratinado.',
       preco: 'R$ 42,00',
-      imagem: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop'
+      imagem: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?q=80&w=1200&auto=format&fit=crop'
     },
     {
       nome: 'Filé de Frango Grelhado',
       descricao: 'Peito de frango temperado servido com acompanhamentos especiais.',
       preco: 'R$ 29,90',
-      imagem: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1200&auto=format&fit=crop'
+      imagem: 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?q=80&w=1200&auto=format&fit=crop'
     },
     {
       nome: 'Calabresa Acebolada',
       descricao: 'Calabresa especial acebolada na chapa com sabor marcante.',
       preco: 'R$ 25,00',
-      imagem: 'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1200&auto=format&fit=crop'
+      imagem: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=1200&auto=format&fit=crop'
     }
   ];
 
