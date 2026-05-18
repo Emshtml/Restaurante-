@@ -62,7 +62,7 @@ export default function RestauranteLandingPage() {
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/5511999999999?text=Olá,%20quero%20fazer%20um%20pedido"
+              href="https://wa.me/5511994550675?text=Olá,%20quero%20fazer%20um%20pedido"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 transition-all px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl"
             >
@@ -143,7 +143,7 @@ export default function RestauranteLandingPage() {
                   </div>
 
                   <a
-                    href={`https://wa.me/5511999999999?text=Olá,%20tenho%20interesse%20no%20prato%20${encodeURIComponent(prato.nome)}`}
+                    href={`https://wa.me/5511994550675?text=Olá,%20tenho%20interesse%20no%20prato%20${encodeURIComponent(prato.nome)}`}
                     target="_blank"
                     className="block text-center bg-green-500 hover:bg-green-400 transition-all py-3 rounded-xl font-bold"
                   >
@@ -189,7 +189,7 @@ export default function RestauranteLandingPage() {
           </p>
 
           <a
-            href="https://wa.me/5511999999999?text=Olá,%20quero%20fazer%20um%20pedido"
+            href="https://wa.me/5511994550675?text=Olá,%20quero%20fazer%20um%20pedido"
             target="_blank"
             className="inline-block bg-green-500 hover:bg-green-400 transition-all px-10 py-5 rounded-2xl text-2xl font-bold shadow-2xl"
           >
