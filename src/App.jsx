@@ -25,7 +25,7 @@ export default function RestauranteLandingPage() {
       imagem: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?q=80&w=1200&auto=format&fit=crop'
     },
     {
-      nome: 'Filé de Frango Grelhado',
+      nome: 'Filé de Frango',
       descricao: 'Peito de frango temperado servido com acompanhamentos especiais.',
       preco: 'R$ 29,90',
       imagem: 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?q=80&w=1200&auto=format&fit=crop'
