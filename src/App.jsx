@@ -62,7 +62,7 @@ export default function RestauranteLandingPage() {
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/5511994550675?text=Olá,%20quero%20fazer%20um%20pedido"
+              href="https://wa.me/5511976794749?text=Olá,%20quero%20fazer%20um%20pedido"
               target="_blank"
               className="bg-green-500 hover:bg-green-400 transition-all px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl"
             >
